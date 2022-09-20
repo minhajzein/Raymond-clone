@@ -1,0 +1,541 @@
+body{
+    margin: 0px 80px;
+}
+.navbar{
+    width: 1360px;
+    height: 75px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+    margin-right: 0px;
+}
+.logo{
+    width: 230px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logopng{
+    width: 150px;
+}
+.group2{
+    width: 500px;
+    height: 100%;
+    display: flex;
+}
+.group1{
+    width: 573px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navicon{
+    height: 100%;
+    width: 191px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.navicon4{
+    height: 100%;
+    width: 115px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.icontitle{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+.icontitle:hover{
+    color: red;
+}
+.navicon3{
+    width: 90px;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.navicon2{
+    height: 100%;
+    width: 191px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.search{
+    height: 100%;
+    width: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.searchicon{
+    width: 10px;
+}
+.serchbtn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.search i{
+    color: white;
+    font-size: 20px;
+}
+.part1{
+    width: 100%;
+    height: 595px;
+    background-image: url(raymondImg/first\ image.jpg);
+}
+.part2{
+    width: 100%;
+    height: 250px;
+    background: rgb(186, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.youareherefor{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youareIcons{
+    width: 80%;
+    height: 120px;
+    display: flex;
+}
+.YOUtitle{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+}
+.brands{
+    height: 100%;
+    width: 270px;
+}
+.vrline{
+    height: 100%;
+    width: 1px;
+    background: gray;
+}
+.icon{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youTitle{
+    font-family: 'Titillium Web', sans-serif;
+}
+.part3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourBis{
+    margin-top: 75px;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
+.explore{
+    margin-top: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: red;
+}
+.matter{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part4{
+    width: 100%;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fstgrid{
+        width:100%;
+        height: 288px;
+        display: flex;
+        justify-content: space-between;
+}
+.scdgrid{
+        width: 100%;
+        height: 288px;
+        display: flex;
+        justify-content: space-between;
+}
+.grid1{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/suiting-image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid1-1{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/Shirting-image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid1-2{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/Garmenting-image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid1-3{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/RetailPresence-image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid1-4{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/Denim-image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid1-5{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/engineering_image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid1-6{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/fmcg_image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feddy{
+    width: 100px;
+    position: fixed;
+}
+.grid1-7{
+    width: 24.8%;
+    height: 300px;
+    background-image: url(raymondImg/apparel_banner.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gridtitle{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+.part5{
+    background: #fdf3f3;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ourbrands-title{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.ourbrands{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brandlogos{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part6{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part6-title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leaders{
+    
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.leader{
+    margin: 0px 20px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.lead-name{
+    font-family: 'Titillium Web', sans-serif;
+}
+.role{
+    font-family: 'Titillium Web', sans-serif;
+    color: red;
+}
+.graytext{
+    font-family: 'Titillium Web', sans-serif;
+    color: gray;
+}
+.part7{
+    width: 100%;
+    height: 569px;
+    background-image: url(raymondImg/manufacture.png);
+    position: relative;
+}
+.manufacture-body{
+    width: 480px;
+    height: 210px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    top: 310px;
+}
+.manufacture{
+    
+    width: 400px;
+    height: 160px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.manufacturing{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.part8{
+    width: 100%;
+    height: 292px;
+    background-image: url(raymondImg/global.png);
+    position: relative;
+}
+.global{
+    height: 150px;
+    width: 40%;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.newlaunchs{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newlaunchs-title{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+}
+.part9{
+    width: 100%;
+    height: 500px;
+    background-image: url(raymondImg/newsales.png);
+    position: relative;
+}
+.supima{
+    height: 250px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    position: absolute;
+    right: 50px;
+    top: 125px;
+}
+.supima-title{
+    width: 400px;
+    height: 160px;
+}
+.supimafont{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: rgb(50, 45, 45);
+}
+.supimafont1{
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(50, 45, 45);
+}
+.part10{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.beyond-title{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partiol{
+    width: 100%;
+    height: 760px;
+    background-image: url(raymondImg/tialor.png);
+    position: relative;
+}
+.white{
+    width: 100%;
+    height: 50px;
+}
+.fstfoot{
+    width: 100%;
+    height: 200px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.eachone{
+    width: 30%;
+    height: 100%;
+}
+.locator{
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+.label1{
+    background: gray;
+    font-family: 'Titillium Web', sans-serif;
+    border-color: rgb(245, 235, 235);
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+}
+.reachus{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+.nmbr{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+.fnlfoot{
+    width: 100%;
+    height: 600px;
+    background: rgb(59, 58, 58);
+    display: flex;
+}
+.eachfnl{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fnleach{
+    width: 80%;
+    height: 80%;
+}
+.listhead{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin: 40px;
+    
+}
+.mark{
+    list-style-type: none;
+    margin: 0;
+}
+.list{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin: 0;
+    font-weight: 100;
+}
+.list:hover{
+    color: red;
+}
+.final{
+    width: 100%;
+    height: 50px;
+    background: rgb(59, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.line2{
+    width: 900px;
+    height: 1px;
+    background: white;
+}
